@@ -14,4 +14,6 @@ chmod u+x 파일명
 chmod u-x 파일명
 chmod u=r 파일명
 
+# 파일 소유자 그룹변경(유저,그룹 바뀜)
+chown 유저명:유저명 파일명
 
