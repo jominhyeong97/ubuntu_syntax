@@ -9,7 +9,7 @@ chmod u+x myscript.sh
 
 # 스크립트 실행
 
-./ myscript.sh
+./myscript.sh
 
 #<셸스크립트 예제>
 #시작 문구 출력
@@ -48,3 +48,15 @@ for a in *
 do
  echo $a
 done
+
+# for문에 변수값을 증가
+count=100
+for a in {1..100}
+do
+
+    let count=count+1
+
+done
+echo "count value is $count"
+
+# for문 및 변수값 세팅 활용

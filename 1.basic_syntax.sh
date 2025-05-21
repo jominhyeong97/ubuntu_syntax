@@ -92,7 +92,7 @@ find . -name "*.txt"
 find . -type f,d
 
 # find와 grep의 혼용
-find . -name "*txt" -exec grep -rni "hello" {} \;
+find . -name "*txt" -exec grep(mv,cp...) -rni "hello" {} \;
 find . -name "*txt" | xargs grep -rni "hello"
 
 find . -type f -name "first*" | grep -rni "hello"
